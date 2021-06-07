@@ -49,6 +49,9 @@ public class Main {
             }
             if (t == false) {
                 System.out.println("стенка");
+                System.out.println("Выберите другое направление");
+                pl2_hode(sc.nextInt());
+                t=true;
             }
         }
 
